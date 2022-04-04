@@ -1,9 +1,13 @@
 package observer;
 
 public class Laptop extends Device{
+    public Laptop(Updater updater) {
+        updater.addDevice(this);
+        this.updater = updater;
+    }
 
     @Override
-    public void update() {
-        System.out.println("Laptop firmware updated");
+    protected void update() {
+        System.out.println("Laptop firmware updated to version: "+this.updater.getVersion());
     }
 }

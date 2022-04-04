@@ -11,14 +11,23 @@ public class Updater {
         observers.add(device);
     }
 
+    public Updater(double version) {
+        this.version = version;
+    }
+
     public void updateVersion(double version){
         this.version = version;
         updateFirmware();
     }
-
     private void updateFirmware(){
         for (Device observer : observers){
             observer.update();
         }
+    }
+    protected void addDevice(Device device){
+        this.observers.add(device);
+    }
+    protected double getVersion(){
+        return this.version;
     }
 }
