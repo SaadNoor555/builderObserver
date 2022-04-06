@@ -3,7 +3,7 @@ package builder;
 public abstract class Adapter implements Item {
 
     @Override
-    public Circuit packing() {
+    public Circuit build() {
         return new GalliumCircuit();
     }
 

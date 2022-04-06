@@ -1,9 +1,9 @@
 package builder;
 
 public abstract class Phone implements Item {
-
+    public abstract String os();
     @Override
-    public Circuit packing() {
+    public Circuit build() {
         return new SiliconCircuit();
     }
 

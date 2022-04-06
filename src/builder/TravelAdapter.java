@@ -4,7 +4,7 @@ public class TravelAdapter extends Adapter {
 
     @Override
     public float price() {
-        return 30.0f;
+        return 12.5f;
     }
 
     @Override

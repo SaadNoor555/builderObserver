@@ -4,7 +4,7 @@ public class WallAdapter extends Adapter {
 
     @Override
     public float price() {
-        return 35.0f;
+        return 10.0f;
     }
 
     @Override
