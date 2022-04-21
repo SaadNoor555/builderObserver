@@ -1,4 +1,6 @@
-package builder;
+package builder.adapter;
+
+import builder.adapter.Adapter;
 
 public class TravelAdapter extends Adapter {
 

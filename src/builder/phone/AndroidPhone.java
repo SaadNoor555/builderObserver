@@ -1,4 +1,4 @@
-package builder;
+package builder.phone;
 
 public class AndroidPhone extends Phone {
 
@@ -9,7 +9,7 @@ public class AndroidPhone extends Phone {
 
     @Override
     public float price() {
-        return 25.0f;
+        return 800.0f;
     }
 
     @Override

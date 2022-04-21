@@ -1,4 +1,6 @@
-package builder;
+package builder.phone;
+
+import builder.phone.Phone;
 
 public class Iphone extends Phone {
 
@@ -9,7 +11,7 @@ public class Iphone extends Phone {
 
     @Override
     public float price() {
-        return 50.5f;
+        return 1300.0f;
     }
 
     @Override

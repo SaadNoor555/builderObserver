@@ -1,4 +1,6 @@
-package builder;
+package builder.circuit;
+
+import builder.circuit.Circuit;
 
 public class SiliconCircuit implements Circuit {
 

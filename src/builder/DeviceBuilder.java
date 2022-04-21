@@ -1,5 +1,10 @@
 package builder;
 
+import builder.adapter.TravelAdapter;
+import builder.adapter.WallAdapter;
+import builder.phone.AndroidPhone;
+import builder.phone.Iphone;
+
 public class DeviceBuilder {
 
     public Device preparePixel6 (){

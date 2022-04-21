@@ -1,4 +1,8 @@
-package builder;
+package builder.adapter;
+
+import builder.Item;
+import builder.circuit.Circuit;
+import builder.circuit.GalliumCircuit;
 
 public abstract class Adapter implements Item {
 

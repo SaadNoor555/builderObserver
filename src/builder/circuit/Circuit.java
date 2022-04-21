@@ -1,4 +1,4 @@
-package builder;
+package builder.circuit;
 
 public interface Circuit {
     public String getCircuit();

@@ -1,4 +1,4 @@
-package builder;
+package builder.circuit;
 
 public class GalliumCircuit implements Circuit {
 

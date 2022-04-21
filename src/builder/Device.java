@@ -22,9 +22,9 @@ public class Device {
     public void showItems(){
 
         for (Item item : items) {
-            System.out.print("Item : " + item.name());
-            System.out.print(", Circuit Used : " + item.build().getCircuit());
-            System.out.println(", Price : " + item.price());
+            System.out.println("Item : " + item.name());
+            System.out.println("Circuit Used : " + item.build().getCircuit());
+            System.out.println("Price : " + item.price());
         }
     }
 }
